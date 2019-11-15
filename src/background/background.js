@@ -251,9 +251,9 @@
                         }
                     }
                 }
-                logOnTab(tabId, "No override match for: " + requestUrl);
+                //logOnTab(tabId, "No override match for: " + requestUrl);
             } else {
-                logOnTab(tabId, "Rule is off or tab URL does not match: " + domainObj.matchUrl);
+                //logOnTab(tabId, "Rule is off or tab URL does not match: " + domainObj.matchUrl);
             }
         }
     };
